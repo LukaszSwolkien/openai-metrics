@@ -1,0 +1,8 @@
+# OpenAI API base URL (default: https://api.openai.com/v1)
+base_url: "https://api.openai.com/v1"
+
+# Your OpenAI API key (required)
+api_key: "your-openai-api-key-here"
+
+# Number of days to look back (default: 7)
+days_back: 3
