@@ -47,13 +47,21 @@ A minimal Python script to retrieve and display OpenAI API usage metrics, costs,
    ```
 ## Usage
 
-Run the script with your configuration file:
+### Retrieve Metrics
+Run the main script to retrieve usage metrics:
 
 ```bash
 uv run main.py my-config.yaml
 ```
 
-**Note**: This script only reads data from OpenAI APIs and does not modify any settings or make API calls that consume tokens.
+### Generate Usage Data
+To create test usage data for metrics analysis:
+
+```bash
+uv run generate_usage.py my-config.yaml
+```
+
+**Note**: `main.py` only reads data from OpenAI APIs. `generate_usage.py` will make API calls that consume tokens and may incur costs.
 
 ## License
 
