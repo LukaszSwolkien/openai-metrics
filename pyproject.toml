@@ -2,4 +2,4 @@
 name = "openai-metrics"
 version = "0.1.0"
 requires-python = ">=3.13"
-dependencies = ["requests", "pyyaml", "openai>=1.0.0"]
+dependencies = ["requests", "pyyaml", "openai>=1.0.0", "backoff"]
